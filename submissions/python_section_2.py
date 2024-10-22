@@ -83,7 +83,7 @@ unrolled_result = unroll_distance_matrix(result) # Data Frame from Q9
 #print(unrolled_result.head())
 
 #save the unrolled _distance_matrix csv result file
-#unrolled_result.to_csv('unrolled_distance_matrix.csv', index=False)
+#unrolled_result.to_csv('unrolled_distance_matrix.csv', index=False) # saving data as csv
 #----------------------------------------------------------------------------------------------------------#
 
 
@@ -166,7 +166,7 @@ toll_rate_df = calculate_toll_rate(unrolled_result)
 # Print or save the updated DataFrame
 # print(toll_rate_df)
 # print(toll_rate_df.head())
-#toll_rate_df.to_csv('toll_rates.csv', index=False)  # Save to CSV if needed
+#toll_rate_df.to_csv('toll_rates.csv', index=False)  # Save as CSV 
 
 #-------------------------------------------------------------------------------------------------------#
 
